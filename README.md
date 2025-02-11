@@ -59,19 +59,14 @@ npm install
 npm start
 ```
 
-## 環境変数の設定
-
-`.env`ファイルを作成し、必要な環境変数を設定してください：
-
-```
-REACT_APP_OPENAI_API_KEY=your_api_key_here
-```
-
 ## ライセンス
 
 このプロジェクトはMITライセンスの下で公開されています。
 
 ## クレジット
 
-このプロジェクトは、OpenAIの2024年スーパーボール広告で使用されたドット表現スタイルから着想を得ています。
-オリジナルの広告：[OpenAI Super Bowl LVIII Commercial](https://www.youtube.com/watch?v=Y8GtKnz6Zs8) 
+このプロジェクトは、OpenAIのスーパーボール広告（Super Bowl LVIII, 2024）で使用されたドット表現スタイルから着想を得ています。
+
+参考動画：
+- [OpenAI Super Bowl LVIII Commercial](https://www.youtube.com/watch?v=Y8GtKnz6Zs8)
+- [OpenAI Super Bowl Commercial - Behind the Scenes](https://www.youtube.com/watch?v=kIhb5pEo_j0) 
