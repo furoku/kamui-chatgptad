@@ -59,14 +59,6 @@ npm install
 npm start
 ```
 
-## 環境変数の設定
-
-`.env`ファイルを作成し、必要な環境変数を設定してください：
-
-```
-REACT_APP_OPENAI_API_KEY=your_api_key_here
-```
-
 ## ライセンス
 
 このプロジェクトはMITライセンスの下で公開されています。
