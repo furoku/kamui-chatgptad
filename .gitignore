@@ -17,5 +17,5 @@ build/
 
 # OS generated files
 .DS_Store
-+.cursor/
+.cursor/
 Thumbs.db
