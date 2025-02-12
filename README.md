@@ -59,21 +59,6 @@ npm install
 npm start
 ```
 
-### 開発時の注意点
-
-#### バージョン管理対象外のファイル
-以下のファイルやディレクトリは、開発環境固有のものやバックアップファイルのため、Gitの管理対象から除外されています：
-
-- `.cursor/`: Cursor IDE固有の設定ファイル
-- `main_bak/`: バックアップディレクトリ
-- `structure.yaml`: プロジェクト構造定義ファイル
-- `node_modules/`: 依存パッケージ
-- `.env`関連ファイル: 環境変数設定ファイル
-- `dist/`, `build/`: ビルド出力ディレクトリ
-- `.DS_Store`, `Thumbs.db`: OS固有のシステムファイル
-
-これらのファイルは`.gitignore`で管理されており、リポジトリにコミットされません。
-
 ## ライセンス
 
 このプロジェクトはMITライセンスの下で公開されています。
@@ -83,5 +68,80 @@ npm start
 このプロジェクトは、OpenAIのスーパーボール広告（Super Bowl LVIII, 2024）で使用されたドット表現スタイルから着想を得ています。
 
 参考動画：
+- [OpenAI Super Bowl LVIII Commercial](https://www.youtube.com/watch?v=Y8GtKnz6Zs8)
+- [OpenAI Super Bowl Commercial - Behind the Scenes](https://www.youtube.com/watch?v=kIhb5pEo_j0)
+
+---
+
+# Kamui ChatGPT Ad Maker [English]
+
+A web application that converts images into dot art style
+
+## Overview
+
+This project is a web application that converts uploaded images into black and white dot art. It recreates the dot expression style used in OpenAI's Super Bowl commercial using the Canvas API.
+
+## Key Features
+
+- **Image Upload**
+  - Upload images via drag & drop or file selection
+  - Supported formats: PNG, JPG, GIF
+- **Dot Size Adjustment**
+  - Fine-tune dot size using a slider
+- **Dot Effect Application**
+  - Apply black and white dot effect to uploaded images
+  - Dot size varies based on image brightness
+- **Real-time Preview**
+  - Side-by-side display of original and processed images
+  - Instant result confirmation
+
+## Tech Stack
+
+- React (Function Components + Hooks)
+- TypeScript
+- Tailwind CSS (UI Styling)
+- Canvas API (Image Processing)
+
+## Core Components
+
+- `ChatGPTAdMaker.tsx`: Main Component
+  - Image upload handling
+  - Dot size state management
+  - Overall UI layout
+- `DotSlider.tsx`: Dot Size Adjustment Slider
+  - Customized range slider
+  - Size range of 1-20
+- `dotEffect.ts`: Dot Processing Logic
+  - Image processing using Canvas API
+  - Grayscale conversion
+  - Dot pattern generation
+
+## Development Setup
+
+1. Clone the repository
+```bash
+git clone https://github.com/furoku/kamui-chatgptad.git
+cd kamui-chatgptad
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start development server
+```bash
+npm start
+```
+
+## License
+
+This project is released under the MIT License.
+
+## Credits
+
+This project is inspired by the dot expression style used in OpenAI's Super Bowl commercial (Super Bowl LVIII, 2024).
+
+Reference Videos:
 - [OpenAI Super Bowl LVIII Commercial](https://www.youtube.com/watch?v=Y8GtKnz6Zs8)
 - [OpenAI Super Bowl Commercial - Behind the Scenes](https://www.youtube.com/watch?v=kIhb5pEo_j0) 
