@@ -15,14 +15,14 @@ logs/
 *.log
 npm-debug.log*
 
+# Build output
+dist/
+build/
+
 # Environment files
 .env
 .env.local
 .env.*.local
-
-# Directories for build output (if applicable)
-dist/
-build/
 
 # OS generated files
 .DS_Store
