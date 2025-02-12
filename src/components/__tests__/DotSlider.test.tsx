@@ -1,5 +1,5 @@
 import { render, fireEvent, screen } from '@testing-library/react';
-import DotSlider from '../DotSlider';
+import DotSlider from '../DotSlider/DotSlider';
 
 describe('DotSlider', () => {
   const mockOnChange = jest.fn();
