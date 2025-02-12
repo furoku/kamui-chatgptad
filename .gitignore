@@ -7,6 +7,9 @@ main_bak/
 # Node.js dependencies
 node_modules/
 
+# Project specific
+structure.yaml
+
 # Logs
 logs/
 *.log
