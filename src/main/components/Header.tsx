@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex h-full items-center justify-between">
           <div className="flex-1 flex justify-start">
             <a href="/" className="text-xl font-bold text-gray-900 hover:text-gray-700 transition-colors">
-              ChatGPT Ad Maker
+              ChatGPT広告メーカー
             </a>
           </div>
           
@@ -16,19 +16,19 @@ const Header = () => {
               href="/"
               className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors"
             >
-              Home
+              ホーム
             </a>
             <a
               href="/about"
               className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
             >
-              About
+              概要
             </a>
             <a
               href="/contact"
               className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
             >
-              Contact
+              お問い合わせ
             </a>
           </nav>
 
